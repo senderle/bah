@@ -55,7 +55,6 @@ modules+=("centos.sh")
 modules+=("root.sh")
 modules+=("rbenvinit.sh")
 modules+=("brewbashcomplete.sh")
-modules+=("ubuntu-gnome-keyring.sh")
 ##
 
 for p in "${modules[@]}"
