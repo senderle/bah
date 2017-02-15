@@ -24,7 +24,7 @@ let g:syntastic_javascript_checkers = ['jshint']
 let g:syntastic_mode_map = {
     \ "mode": "passive",
     \ "active_filetypes": ["javascript"],
-    \ "passive_filetypes": ["python"] }
+    \ "passive_filetypes": ["python", "java"] }
 
 " Plugin 'chrisbra/csv.vim'
 

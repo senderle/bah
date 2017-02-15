@@ -50,11 +50,16 @@ alias src='cd ~/Dropbox/Documents/src'
 
 ## Modules
 modules=()
+modules+=("functions.sh")
 modules+=("osx.sh")
+modules+=("bsd.sh")
 modules+=("centos.sh")
 modules+=("root.sh")
+modules+=("extra.sh")
 modules+=("rbenvinit.sh")
-modules+=("brewbashcomplete.sh")
+modules+=("virtualenvwrapperinit.sh")
+modules+=("rbenvedit.sh")
+modules+=("brewbashcompletion.sh")
 ##
 
 for p in "${modules[@]}"
