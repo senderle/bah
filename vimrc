@@ -30,7 +30,9 @@ let g:syntastic_mode_map = {
 
 " Plugin 'tpope/vim-fugitive'
 
-Plugin 'senderle/restoreview'
+" Plugin 'senderle/restoreview'
+
+" Plugin 'Konfekt/FastFold'
 
 """ Colorschemes """
 
@@ -43,11 +45,13 @@ let g:pymode_lint = 1
 let g:pymode_lint_on_write = 1
 let g:pymode_lint_cwindow = 0
 let g:pymode_lint_ignore = "E302, E501"
+let g:pymode_folding = 0
 let g:pymode_rope = 0
 let g:pymode_rope_completion = 0
 let g:pymode_rope_complete_on_dot = 0
 let g:pymode_syntax = 1
 let g:pymode_syntax_all = 1
+let g:pymode_python = 'python3'
 
 " Plugin 'davidhalter/jedi-vim'
 
@@ -60,7 +64,7 @@ let g:pymode_syntax_all = 1
 
 """ Lisp Plugins """
 
-Plugin 'kovisoft/slimv'
+" Plugin 'kovisoft/slimv'
 
 " All Plugins must be added before the following line
 call vundle#end()           " Required for Vundle
@@ -143,6 +147,10 @@ set autoindent
 set ruler               " show line number and column
 set nowrap              " don't wrap lines
 set colorcolumn=80      " display a line at column 80
+
+""" Fix ridiculous slowdown """
+
+
 
 """ Autocommand block """
 

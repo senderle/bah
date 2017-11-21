@@ -46,6 +46,7 @@ alias sl='ls'
 alias xterm='xterm -bg black'
 alias vi=vim
 alias src='cd ~/Dropbox/Documents/src'
+alias wrk='cd ~/Dropbox/Desktops/Working'
 ##
 
 ## Modules
