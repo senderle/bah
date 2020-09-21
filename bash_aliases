@@ -27,6 +27,7 @@
 
 ## Exports
 export PS1="\[\e[00;32m\]\u@\h:\[\e[00;36m\]\w $\[\e[00m\] "
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 export NODE_PATH=/usr/local/lib/node_modules
 export CVS_RSH=ssh
 export WINEDEBUG=-all
@@ -47,6 +48,7 @@ alias xterm='xterm -bg black'
 alias vi=vim
 alias src='cd ~/Dropbox/Documents/src'
 alias wrk='cd ~/Dropbox/Desktops/Working'
+alias dus='du -hs * | sort -h'
 ##
 
 ## Modules
